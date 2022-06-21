@@ -13,5 +13,3 @@ def predict(modelparams):
         result = {"ETA":"10 Tage"}
     return jsonify(result)
 
-if __name__ == "__main__":
-    app.run() 
