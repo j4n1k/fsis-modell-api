@@ -1,28 +1,8 @@
-# packages in environment at /Users/janikbischoff/opt/anaconda3/envs/fsis-modell-api:
-#
-# Name                    Version                   Build  Channel
-bzip2                     1.0.8                h1de35cc_0  
-ca-certificates           2022.4.26            hecd8cb5_0  
-certifi                   2022.5.18.1     py310hecd8cb5_0  
-click                     8.0.4           py310hecd8cb5_0  
-dataclasses               0.8                pyh6d0b6a4_7  
-flask                     2.0.3              pyhd3eb1b0_0  
-gunicorn                  20.1.0          py310hecd8cb5_0  
-itsdangerous              2.0.1              pyhd3eb1b0_0  
-jinja2                    3.0.3              pyhd3eb1b0_0  
-libcxx                    12.0.0               h2f01273_0  
-libffi                    3.3                  hb1e8313_2  
-markupsafe                2.1.1           py310hca72f7f_0  
-ncurses                   6.3                  hca72f7f_2  
-openssl                   1.1.1o               hca72f7f_0  
-pip                       21.2.4          py310hecd8cb5_0  
-python                    3.10.4               hdfd78df_0  
-readline                  8.1.2                hca72f7f_1  
-setuptools                61.2.0          py310hecd8cb5_0  
-sqlite                    3.38.3               h707629a_0  
-tk                        8.6.12               h5d9f67b_0  
-tzdata                    2022a                hda174b7_0  
-werkzeug                  2.0.3              pyhd3eb1b0_0  
-wheel                     0.37.1             pyhd3eb1b0_0  
-xz                        5.2.5                hca72f7f_1  
-zlib                      1.2.12               h4dc903c_2  
+certifi==2022.5.18.1
+click==8.0.4
+Flask==2.0.3
+gunicorn==20.1.0
+itsdangerous==2.0.1 
+Jinja2==3.0.3 
+MarkupSafe==2.1.1 
+Werkzeug==2.0.3 
