@@ -145,9 +145,9 @@ def predict(password, modelparams):
             b = np.zeros_like(predictions)
             b[np.arange(len(predictions)), predictions.argmax(1)] = 1
             etas = enc.inverse_transform(b)
-            return str(etas.ravel()[0])
+            return str(etas.ravel()[0]) 
         else:
-            result = {"ETA":"10 Tage"}
+            result = "Usage: url/predict/password/modelparams"
         return jsonify(result)
     else:
         result = "Falscher API Key"
